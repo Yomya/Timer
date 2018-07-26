@@ -1,0 +1,25 @@
+@font-face
+{
+font-family: myFirstFont;
+src: url('../digital-7_mono.ttf'); /* IE9+ */
+}
+
+.number1
+{
+font-family: myFirstFont;
+color: #515151;
+}
+.t-shadow{
+           font-size: 75px;
+           font-family: myFirstFont;
+           text-align: center;
+           line-height: 75px;
+
+           /* 文字阴影： 水平位移 垂直位移  模糊程度  阴影颜色*/
+           text-shadow: 5px 5px 31px #a1a1a1;
+       }
+       /* text-shadow :文字阴影
+          可以设置多个阴影
+         每个阴影之间使用逗号隔开
+          text-shadow: -1px -1px 1px #fff, 1px 1px 1px #000;
+       */
