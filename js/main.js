@@ -21,6 +21,7 @@ setInterval("getTimeLeft()",1000);
 
     document.getElementById('days').innerText=newDay;
     document.getElementById('days1').innerText=newDay+1;
+    document.getElementById('loveDay').innerText=newDay-97;
     document.getElementById('hours').innerText=newHour;
     document.getElementById('mins').innerText=newMinute;
     document.getElementById('seconds').innerText=newSecond;
